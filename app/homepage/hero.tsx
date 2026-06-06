@@ -43,7 +43,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-black via-dark-blue to-black flex items-center justify-center relative overflow-hidden pt-20">
+    <section className="min-h-screen bg-gradient-to-br from-black via-dark-blue to-black flex items-center justify-center relative overflow-hidden !pt-30 ">
 
       {/* Animated Background Elements */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">

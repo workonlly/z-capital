@@ -8,12 +8,10 @@ import Cta from "./homepage/cta";
 export default function Home() {
   return (
     <>
-      <main className="!pt-24 md:pt-0">
-        <Hero />
-        <Features />
-        <Expertise />
-        <Cta />
-      </main>
+      <Hero />
+      <Features />
+      <Expertise />
+      <Cta />
     </>
   );
 }
