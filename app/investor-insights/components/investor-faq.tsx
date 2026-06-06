@@ -204,7 +204,7 @@ function FaqItem({
 
   return (
     <div
-      className={`group rounded-2xl overflow-hidden transition-all duration-500 backdrop-blur-md ${
+      className={`group rounded-2xl overflow-hidden transition-all !p-2 duration-500 backdrop-blur-md ${
         isExpanded
           ? "border border-[#d4af37]/50 bg-gradient-to-br from-white/[0.05] to-[#d4af37]/[0.05] shadow-[0_8px_32px_-12px_rgba(212,175,55,0.2)]"
           : "border border-white/10 bg-white/[0.02] hover:border-[#d4af37]/30 hover:bg-white/[0.04]"
@@ -376,7 +376,7 @@ export default function InvestorFaq() {
                   {categoryGroup.items.map((faq, idx) => {
                     const flatIdx = startFlatIdx + idx
                     return (
-                      <div key={idx} className="faq-row" style={{ opacity: 0 }}>
+                      <div key={idx} className="faq-row !p-1" style={{ opacity: 0 }}>
                         <FaqItem
                           question={faq.question}
                           answer={faq.answer}
