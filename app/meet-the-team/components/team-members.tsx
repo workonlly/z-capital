@@ -24,7 +24,7 @@ const team: TeamMember[] = [
     image: "/deals/team1.avif",
     longBio: [
       "Joe is a Corporate and M&A attorney who ensures that every acquisition at Zaman Capital Group is legally sound, financially optimized, and risk-mitigated. His sharp legal expertise and strategic deal structuring give investors bulletproof transactions.",
-      "With a background in high-stakes corporate law, Joe specializes in contracts, due diligence, and financial structuring—ensuring that every deal is built for long-term success. Selected as a 2025 Rising Star by Maryland Super Lawyers Magazine, Joe's meticulous attention to legal and financial details allows Zaman Capital Group to navigate complex transactions with confidence.",
+      "With a background in high-stakes corporate law, Joe specializes in contracts, due diligence, and financial structuring ensuring that every deal is built for long-term success. Selected as a 2025 Rising Star by Maryland Super Lawyers Magazine, Joe's meticulous attention to legal and financial details allows Zaman Capital Group to navigate complex transactions with confidence.",
       "Joe thrives at the intersection of legal risk management and wealth-building strategy, protecting investor interests while positioning deals for maximum profitability.",
     ],
     expertise: ["Legal", "Due Diligence", "Financials", "Risk Mitigation", "Investor Protections"],
@@ -145,7 +145,7 @@ function TeamMemberCard({ member, index }: { member: TeamMember; index: number }
         <div ref={contentRef} className="md:col-span-8" style={{ opacity: 0 }}>
           <div className="space-y-4 mb-8">
             {member.longBio.map((para, i) => (
-              <p key={i} className="text-text-secondary leading-relaxed text-lg">{para}</p>
+              <p key={i} className="text-text-secondary leading-relaxed !mb-3 text-lg">{para}</p>
             ))}
           </div>
 

@@ -8,11 +8,11 @@ export default function Footer() {
       <div className="container">
         
       
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 !mb-20">
           
          
           <div className="text-center md:text-left">
-            <h4 className="text-platinum font-bold  font-playfair">About Zaman Capital Group</h4>
+            <h4 className="text-platinum font-bold !mb-3 font-playfair">About Zaman Capital Group</h4>
             <p className="text-sm text-text-secondary font-inter leading-loose">
               Zaman Capital Group specializes in multifamily acquisitions and value-add real estate investments with
               institutional-grade returns.
@@ -21,7 +21,7 @@ export default function Footer() {
 
         
           <div className="text-center md:text-left">
-            <h4 className="text-platinum font-bold mb-8 font-playfair">Quick Links</h4>
+            <h4 className="text-platinum font-bold !mb-3 font-playfair">Quick Links</h4>
             <ul className="flex flex-col !mt-2 gap-2 text-sm">
               <li>
                 <Link href="/invest-with-us" className="text-text-secondary hover:text-[#d4af37] font-inter transition block">
@@ -48,7 +48,7 @@ export default function Footer() {
 
      
           <div className="text-center md:text-left">
-  <h4 className="text-platinum font-bold mb-8 font-playfair">Contact</h4>
+  <h4 className="text-platinum font-bold !mb-3 font-playfair">Contact</h4>
   <ul className="flex flex-col gap-4 text-sm !mt-2">
     <li>
       <a
@@ -72,7 +72,7 @@ export default function Footer() {
 
 
           <div className="text-center md:text-left">
-            <h4 className="text-platinum font-bold mb-8 font-playfair">Follow Us</h4>
+            <h4 className="text-platinum font-bold !mb-3 font-playfair">Follow Us</h4>
             <ul className="flex flex-col gap-2 text-sm !mt-2">
               <li>
                 <a href="https://www.linkedin.com/company/zamancapitalgroup/" className="text-text-secondary hover:text-[#d4af37] font-inter transition block">
