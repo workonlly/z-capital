@@ -132,12 +132,12 @@ export default function DealsList() {
       <div className="container">
 
         {/* Deal Selection Tabs */}
-        <div ref={tabsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 !mb-8 max-w-7xl mx-auto" style={{ opacity: 0 }}>
+        <div ref={tabsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 !gap-6 !mb-16 max-w-7xl mx-auto" style={{ opacity: 0 }}>
           {deals.map((deal) => (
             <button
               key={deal.id}
               onClick={() => handleDealSelect(deal)}
-              className={`p-6 rounded-lg border-2 transition-colors duration-300 text-center h-full flex flex-col justify-center items-center ${
+              className={`!p-8 rounded-lg border-2 transition-colors duration-300 text-center h-full flex flex-col justify-center items-center ${
                 selectedDeal.id === deal.id
                   ? "border-[#d4af37] bg-[#d4af37]/10"
                   : "border-[#d4af37]/30 hover:border-[#d4af37]/60 bg-black/40"
@@ -158,21 +158,21 @@ export default function DealsList() {
         </div>
 
         {/* Deal Detail Panel */}
-        <div ref={detailRef} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch" style={{ opacity: 0 }}>
+        <div ref={detailRef} className="grid grid-cols-1 lg:grid-cols-2 !gap-16 items-stretch" style={{ opacity: 0 }}>
 
           {/* Left Column */}
           <div className="flex flex-col h-full">
-            <div className="space-y-8">
+            <div className="!space-y-12">
               <div>
-                <h2 className="text-4xl font-bold text-platinum font-playfair mb-2">{selectedDeal.title}</h2>
-                <p className="text-[#d4af37] font-inter text-lg mb-6 uppercase tracking-wide">{selectedDeal.location}</p>
-                <p className="text-text-secondary font-inter leading-relaxed text-lg border-l-2 border-[#d4af37]/50 !pl-2">
+                <h2 className="text-4xl font-bold text-platinum font-playfair !mb-4">{selectedDeal.title}</h2>
+                <p className="text-[#d4af37] font-inter text-lg !mb-8 uppercase tracking-wide">{selectedDeal.location}</p>
+                <p className="text-text-secondary font-inter leading-relaxed text-lg border-l-2 border-[#d4af37]/50 !pl-6">
                   {selectedDeal.description}
                 </p>
               </div>
 
               {/* Stats Grid */}
-              <div className="grid grid-cols-2 gap-6 pt-6 border-t border-[#d4af37]/20">
+              <div className="grid grid-cols-2 !gap-8 !pt-10 border-t border-[#d4af37]/20">
                 <div>
                   <p className="text-text-secondary font-inter text-xs mb-1 uppercase tracking-widest">Asset Type</p>
                   <p className="text-lg font-bold text-platinum font-playfair">{selectedDeal.details.type}</p>
@@ -194,16 +194,16 @@ export default function DealsList() {
               </div>
 
               {/* Plan & Results */}
-              <div className="bg-[#d4af37]/5 border border-[#d4af37]/20 rounded-xl !p-2 relative overflow-hidden">
+              <div className="bg-[#d4af37]/5 border border-[#d4af37]/20 rounded-xl !p-8 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-[#d4af37] rounded-full mix-blend-overlay filter blur-3xl opacity-10"></div>
-                <div className="mb-6">
-                  <h4 className="font-playfair font-bold text-platinum text-lg mb-2 flex items-center gap-2">
+                <div className="!mb-8">
+                  <h4 className="font-playfair font-bold text-platinum text-lg !mb-4 flex items-center !gap-3">
                     <span className="w-8 h-[1px] bg-[#d4af37]"></span> The Plan
                   </h4>
                   <p className="text-text-secondary text-sm leading-relaxed">{selectedDeal.plan}</p>
                 </div>
                 <div>
-                  <h4 className="font-playfair font-bold text-[#d4af37] text-lg mb-2 flex items-center gap-2">
+                  <h4 className="font-playfair font-bold text-[#d4af37] text-lg !mb-4 flex items-center !gap-3">
                     <span className="w-8 h-[1px] bg-[#d4af37]"></span> The Results
                   </h4>
                   <p className="text-platinum text-sm leading-relaxed font-medium">{selectedDeal.results}</p>
@@ -211,11 +211,11 @@ export default function DealsList() {
               </div>
 
               {/* Highlights */}
-              <div className="space-y-4">
+              <div className="!space-y-6">
                 <p className="text-platinum font-playfair font-bold text-lg">Snapshot</p>
-                <ul className="grid grid-cols-1 gap-3">
+                <ul className="grid grid-cols-1 !gap-4">
                   {selectedDeal.highlights.map((highlight, index) => (
-                    <li key={index} className="flex items-start gap-3 bg-black/30 p-3 rounded border border-white/5">
+                    <li key={index} className="flex items-start !gap-4 bg-black/30 !p-5 rounded border border-white/5">
                       <span className="text-[#d4af37] font-bold mt-0.5">✓</span>
                       <span className="text-text-secondary font-inter text-sm">{highlight}</span>
                     </li>
@@ -224,7 +224,7 @@ export default function DealsList() {
               </div>
             </div>
 
-            <div className="mt-auto pt-8 border-t border-[#d4af37]/20 mt-16">
+            <div className="mt-auto !pt-12 border-t border-[#d4af37]/20 !mt-20">
               <Link
                 href={`/contact?source=deals&deal=${selectedDeal.title}`}
                 className="btn-gold w-full md:w-auto font-inter font-semibold inline-block text-center shadow-[0_0_20px_rgba(212,175,55,0.2)] hover:shadow-[0_0_30px_rgba(212,175,55,0.4)] transition-shadow"
