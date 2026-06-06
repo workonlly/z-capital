@@ -34,7 +34,7 @@ export default function TeamHero() {
 
         <h1
           ref={headingRef}
-          className="!text-lg md:text-6xl font-bold text-platinum"
+          className="text-lg md:text-6xl font-bold text-platinum"
           style={{ opacity: 0 }}
         >
           Meet the Team
@@ -50,7 +50,7 @@ export default function TeamHero() {
 
         <p
           ref={descRef}
-          className="text-text-secondary max-w-2xl text-lg leading-loose"
+          className="text-text-secondary max-w-2xl !text-lg leading-loose"
           style={{ opacity: 0 }}
         >
           Our team combines institutional-grade expertise with a strategic focus on multifamily acquisitions to help you build lasting wealth.
