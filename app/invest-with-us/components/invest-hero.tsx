@@ -52,7 +52,7 @@ export default function InvestHero() {
 
         <p
           ref={subtitleRef}
-          className="text-[#d4af37] text-xl md:text-2xl tracking-wide"
+          className="text-[#d4af37] !text-lg md:text-2xl tracking-wide"
           style={{ opacity: 0 }}
         >
           Transparent. Data-Driven. Institutional-Grade Returns.

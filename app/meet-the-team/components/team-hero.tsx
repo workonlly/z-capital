@@ -34,7 +34,7 @@ export default function TeamHero() {
 
         <h1
           ref={headingRef}
-          className="text-5xl md:text-6xl font-bold text-platinum"
+          className="!text-lg md:text-6xl font-bold text-platinum"
           style={{ opacity: 0 }}
         >
           Meet the Team
@@ -42,7 +42,7 @@ export default function TeamHero() {
 
         <p
           ref={subtitleRef}
-          className="text-[#d4af37] text-xl md:text-2xl tracking-wide"
+          className="text-[#d4af37] !text-lg md:text-2xl tracking-wide"
           style={{ opacity: 0 }}
         >
           Guided by integrity, driven by innovation

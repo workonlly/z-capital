@@ -40,7 +40,7 @@ export default function StrategyHero() {
 
         <h1
           ref={headingRef}
-          className="text-5xl md:text-6xl font-bold text-platinum"
+          className="!text-lg md:text-6xl font-bold text-platinum"
           style={{ opacity: 0 }}
         >
           Our Investment Strategy

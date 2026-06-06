@@ -66,7 +66,7 @@ export default function Hero() {
         {/* Subtitle */}
         <p
           ref={subtitleRef}
-          className="text-[#d4af37] text-xl md:text-2xl font-light tracking-widest"
+          className="text-[#d4af37] !text-lg md:text-2xl font-light tracking-widest"
           style={{ opacity: 0 }}
         >
           CAPITAL. GROWTH. LEGACY.
