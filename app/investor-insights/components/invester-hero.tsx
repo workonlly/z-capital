@@ -40,7 +40,7 @@ export default function InsightsHero() {
 
         <h1
           ref={headingRef}
-          className="!text-lg md:text-6xl font-bold text-platinum"
+          className="text-lg md:text-6xl font-bold text-platinum"
           style={{ opacity: 0 }}
         >
           Investor Education &amp; Insights
