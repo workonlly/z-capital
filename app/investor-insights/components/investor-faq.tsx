@@ -325,10 +325,10 @@ export default function InvestorFaq() {
       {/* Background Subtle Gradient/Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[400px] bg-[#d4af37]/5 rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="container mx-auto px-4 sm:px-6 relative z-10 flex flex-col items-center">
+      <div className="container mx-auto px-4  sm:px-6 relative z-10 flex flex-col items-center">
         
         {/* Header Section */}
-        <div className="max-w-3xl w-full text-center mb-20 sm:mb-28">
+        <div className="max-w-3xl w-full text-center !mb-6">
           <h2
             ref={headingRef}
             className="text-4xl sm:text-5xl font-bold text-white mb-6"
@@ -346,7 +346,7 @@ export default function InvestorFaq() {
         </div>
 
         {/* FAQs Layout */}
-        <div className="max-w-6xl w-full flex flex-col gap-20 sm:gap-32">
+        <div className="max-w-6xl  w-full flex flex-col !gap-8 sm:gap-32">
           {faqs.map((categoryGroup, categoryIdx) => {
             const startFlatIdx = flatFaqs.findIndex(
               (f) => f.question === categoryGroup.items[0].question
@@ -355,7 +355,7 @@ export default function InvestorFaq() {
             return (
               <div
                 key={categoryIdx}
-                className="faq-category grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start"
+                className="faq-category grid grid-cols-1 lg:grid-cols-12   items-start"
                 style={{ opacity: 0 }}
               >
                 {/* Left Column: Sticky Category Title */}

@@ -157,7 +157,7 @@ function TeamMemberCard({ member, index }: { member: TeamMember; index: number }
               {member.expertise.map((exp, i) => (
                 <span
                   key={i}
-                  className="tag px-4 py-1.5 bg-[#d4af37]/10 border border-[#d4af37]/30 rounded text-sm text-platinum font-medium cursor-default"
+                  className="tag !px-4 py-1.5 bg-[#d4af37]/10 border border-[#d4af37]/30 rounded text-sm text-platinum font-medium cursor-default"
                   style={{ opacity: 0 }}
                   onMouseEnter={(e) => gsap.to(e.currentTarget, { scale: 1.1, backgroundColor: "rgba(212,175,55,0.22)", borderColor: "rgba(212,175,55,0.7)", color: "#f5e6a3", duration: 0.25, ease: "back.out(2)" })}
                   onMouseLeave={(e) => gsap.to(e.currentTarget, { scale: 1, backgroundColor: "rgba(212,175,55,0.1)", borderColor: "rgba(212,175,55,0.3)", color: "", duration: 0.25, ease: "power2.out" })}
@@ -199,7 +199,7 @@ export default function TeamMembers() {
     <section ref={sectionRef} className="section section-dark">
       <div className="container">
 
-        <div ref={headerRef} className="text-center mb-16" style={{ opacity: 0 }}>
+        <div ref={headerRef} className="text-center !mb-8" style={{ opacity: 0 }}>
           <h2 className="text-4xl font-bold text-platinum mb-4 font-playfair">Meet Our Expert Team</h2>
           <p className="text-text-secondary text-lg">The experts behind your investments</p>
         </div>
