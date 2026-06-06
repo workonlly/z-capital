@@ -72,7 +72,7 @@ export default function InvestRequirements() {
 
   return (
     <section ref={sectionRef} className="section section-dark">
-      <div className="container flex flex-col items-center gap-16">
+      <div className="container flex flex-col items-center gap-8">
 
         <h2
           ref={headingRef}

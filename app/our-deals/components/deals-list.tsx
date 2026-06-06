@@ -132,7 +132,7 @@ export default function DealsList() {
       <div className="container">
 
         {/* Deal Selection Tabs */}
-        <div ref={tabsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 max-w-7xl mx-auto" style={{ opacity: 0 }}>
+        <div ref={tabsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 !mb-8 max-w-7xl mx-auto" style={{ opacity: 0 }}>
           {deals.map((deal) => (
             <button
               key={deal.id}

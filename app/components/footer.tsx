@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Footer() {
   return (
    
-    <footer className="bg-secondary-bg border-t border-[#d4af37]/20 pt-24 pb-20">
+    <footer className="bg-secondary-bg border-t border-[#d4af37]/20 !py-10">
       
       <div className="container">
         
@@ -12,7 +12,7 @@ export default function Footer() {
           
          
           <div className="text-center md:text-left">
-            <h4 className="text-platinum font-bold mb-8 font-playfair">About Zaman Capital Group</h4>
+            <h4 className="text-platinum font-bold  font-playfair">About Zaman Capital Group</h4>
             <p className="text-sm text-text-secondary font-inter leading-loose">
               Zaman Capital Group specializes in multifamily acquisitions and value-add real estate investments with
               institutional-grade returns.

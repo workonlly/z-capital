@@ -71,7 +71,7 @@ export default function InvestTypes() {
       <div className="container">
         <h2
           ref={headingRef}
-          className="text-platinum text-center mb-20"
+          className="text-platinum text-center !mb-8"
           style={{ opacity: 0 }}
         >
           Investment Options
