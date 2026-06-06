@@ -60,7 +60,7 @@ export default function InvestHero() {
 
         <p
           ref={descRef}
-          className="text-text-secondary max-w-2xl text-lg leading-loose"
+          className="text-text-secondary !text-lg max-w-2xl text-lg leading-loose"
           style={{ opacity: 0 }}
         >
           Discover how to grow your wealth with premium multifamily real estate investments backed by industry

@@ -48,7 +48,7 @@ export default function InsightsHero() {
 
         <p
           ref={descRef}
-          className="text-xl text-text-secondary max-w-2xl leading-loose"
+          className="!text-lg text-text-secondary max-w-2xl leading-loose"
           style={{ opacity: 0 }}
         >
           Everything you need to know about real estate syndication and multifamily investing

@@ -44,7 +44,7 @@ export default function DealsHero() {
 
         <p
           ref={descRef}
-          className="text-lg text-text-secondary font-inter max-w-2xl leading-loose"
+          className="!text-lg text-text-secondary font-inter max-w-2xl leading-loose"
           style={{ opacity: 0 }}
         >
           Zaman Capital Group portfolio is always expanding. Below are featured deals demonstrating different asset types

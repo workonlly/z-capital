@@ -75,7 +75,7 @@ export default function Hero() {
         {/* Description Text */}
         <p
           ref={descRef}
-          className="text-lg md:text-xl text-text-secondary leading-loose max-w-3xl"
+          className="!text-lg md:text-xl text-text-secondary leading-loose max-w-3xl"
           style={{ opacity: 0 }}
         >
           Backed by deep industry expertise and an unyielding commitment to excellence, we specialize in multifamily

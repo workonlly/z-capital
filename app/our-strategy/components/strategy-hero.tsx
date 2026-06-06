@@ -48,7 +48,7 @@ export default function StrategyHero() {
 
         <p
           ref={descRef}
-          className="text-xl text-text-secondary max-w-2xl leading-loose"
+          className="!text-lg text-text-secondary max-w-2xl leading-loose"
           style={{ opacity: 0 }}
         >
           A disciplined, data-driven approach to sourcing, acquiring, and managing premium multifamily assets
