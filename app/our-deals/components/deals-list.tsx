@@ -166,7 +166,7 @@ export default function DealsList() {
               <div>
                 <h2 className="text-4xl font-bold text-platinum font-playfair mb-2">{selectedDeal.title}</h2>
                 <p className="text-[#d4af37] font-inter text-lg mb-6 uppercase tracking-wide">{selectedDeal.location}</p>
-                <p className="text-text-secondary font-inter leading-relaxed text-lg border-l-2 border-[#d4af37]/50 pl-6">
+                <p className="text-text-secondary font-inter leading-relaxed text-lg border-l-2 border-[#d4af37]/50 !pl-2">
                   {selectedDeal.description}
                 </p>
               </div>
@@ -194,7 +194,7 @@ export default function DealsList() {
               </div>
 
               {/* Plan & Results */}
-              <div className="bg-[#d4af37]/5 border border-[#d4af37]/20 rounded-xl p-8 relative overflow-hidden">
+              <div className="bg-[#d4af37]/5 border border-[#d4af37]/20 rounded-xl !p-2 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-[#d4af37] rounded-full mix-blend-overlay filter blur-3xl opacity-10"></div>
                 <div className="mb-6">
                   <h4 className="font-playfair font-bold text-platinum text-lg mb-2 flex items-center gap-2">

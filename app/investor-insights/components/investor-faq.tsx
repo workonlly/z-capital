@@ -242,7 +242,7 @@ function FaqItem({
 
       <div ref={bodyRef} style={{ height: 0, overflow: "hidden", opacity: 0 }}>
         <div className="px-6 sm:px-8 pb-8 pt-0">
-          <div className="text-gray-300 leading-relaxed whitespace-pre-line text-sm sm:text-base border-l-2 border-[#d4af37]/30 pl-6">
+          <div className="text-gray-300 leading-relaxed whitespace-pre-line text-sm sm:text-base border-l-2 !px-2 border-[#d4af37]/30 pl-6">
             {answer}
           </div>
         </div>

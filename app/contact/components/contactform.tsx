@@ -261,7 +261,7 @@ export default function ContactForm({ initialSubject = "", initialMessage = "" }
             </div>
 
             {/* Submit Button */}
-            <div className="mt-20" ref={btnRef} style={{ opacity: 0 }}>
+            <div className="!mt-5  " ref={btnRef} style={{ opacity: 0 }}>
                 <button
                     type="submit"
                     disabled={isSubmitting}

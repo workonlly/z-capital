@@ -22,7 +22,7 @@ export default function Footer() {
         
           <div className="text-center md:text-left">
             <h4 className="text-platinum font-bold mb-8 font-playfair">Quick Links</h4>
-            <ul className="flex flex-col gap-2 text-sm">
+            <ul className="flex flex-col !mt-2 gap-2 text-sm">
               <li>
                 <Link href="/invest-with-us" className="text-text-secondary hover:text-[#d4af37] font-inter transition block">
                   Invest with Us
@@ -49,7 +49,7 @@ export default function Footer() {
      
           <div className="text-center md:text-left">
   <h4 className="text-platinum font-bold mb-8 font-playfair">Contact</h4>
-  <ul className="flex flex-col gap-4 text-sm">
+  <ul className="flex flex-col gap-4 text-sm !mt-2">
     <li>
       <a
         href="mailto:partners@zamancapitalgroup.com"
@@ -73,7 +73,7 @@ export default function Footer() {
 
           <div className="text-center md:text-left">
             <h4 className="text-platinum font-bold mb-8 font-playfair">Follow Us</h4>
-            <ul className="flex flex-col gap-2 text-sm">
+            <ul className="flex flex-col gap-2 text-sm !mt-2">
               <li>
                 <a href="https://www.linkedin.com/company/zamancapitalgroup/" className="text-text-secondary hover:text-[#d4af37] font-inter transition block">
                   LinkedIn

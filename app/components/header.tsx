@@ -87,7 +87,7 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       <div 
-        className={`fixed inset-0 bg-[#0a0a0a]/98 backdrop-blur-xl z-40 transition-all duration-500 lg:hidden flex flex-col items-center justify-center ${
+        className={`fixed top-0 left-0 w-full h-[100dvh] bg-[#0a0a0a]/98 backdrop-blur-xl z-40 transition-all duration-500 lg:hidden flex flex-col items-center justify-center overflow-hidden touch-none ${
           isMobileMenuOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
         }`}
       >
@@ -113,7 +113,7 @@ export default function Header() {
           <Link 
             href="/contact" 
             onClick={() => setIsMobileMenuOpen(false)}
-            className="mt-4 px-10 py-4 bg-[#d4af37] text-black text-sm font-bold uppercase tracking-[0.2em] rounded-sm hover:bg-white transition-colors"
+            className="mt-4 !p-5 py-4 bg-[#d4af37] text-black text-sm font-bold uppercase tracking-[0.2em] rounded-sm hover:bg-white transition-colors"
             style={{
               opacity: isMobileMenuOpen ? 1 : 0,
               transform: isMobileMenuOpen ? "translateY(0)" : "translateY(20px)",

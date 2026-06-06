@@ -80,7 +80,7 @@ export default function ContactPage() {
 
           {/* Right: Info */}
           <div ref={infoRef} className="lg:col-span-4 space-y-16 lg:sticky lg:top-32" style={{ opacity: 0 }}>
-            <div className="border-l-2 border-white/20 pl-8">
+            <div className="border-l-2 border-white/20 !pl-4">
               <h3 className="text-3xl font-playfair text-white mb-8">Connect</h3>
               <div className="space-y-10">
                 <div>
