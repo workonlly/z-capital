@@ -211,7 +211,7 @@ export default function DealsList() {
               </div>
 
               {/* Highlights */}
-              <div className="!space-y-6">
+              <div className="!space-y-2">
                 <p className="text-platinum font-playfair font-bold text-lg">Snapshot</p>
                 <ul className="grid grid-cols-1 !gap-1">
                   {selectedDeal.highlights.map((highlight, index) => (

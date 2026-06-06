@@ -67,7 +67,7 @@ export default function InvestTypes() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="section section-dark">
+    <section ref={sectionRef} className="section section-dark  !pt-0 !mt-0">
       <div className="container">
         <h2
           ref={headingRef}

@@ -21,7 +21,7 @@ export default function DealsHero() {
   }, [])
 
   return (
-    <section className="min-h-screen pt-32 pb-20 section-dark flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen pt-32  section-dark flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4af37] rounded-full mix-blend-screen blur-3xl"></div>
       </div>

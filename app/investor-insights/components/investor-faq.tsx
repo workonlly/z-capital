@@ -23,7 +23,7 @@ const faqs = [
       {
         question: "What are the benefits of investing in multifamily real estate?",
         answer:
-          "✓ Passive income through rental cash flow\n✓ Appreciation as property values increase\n✓ Tax advantages through depreciation and write-offs\n✓ Diversification with a stable asset class\n✓ Scalability compared to single-family rentals",
+          "Passive income through rental cash flow\nAppreciation as property values increase\nTax advantages through depreciation and write-offs\nDiversification with a stable asset class\nScalability compared to single-family rentals",
       },
       {
         question: "How does investing in multifamily compare to single-family rentals?",
@@ -38,12 +38,12 @@ const faqs = [
       {
         question: "What kind of returns can I expect on my investment?",
         answer:
-          "Returns vary based on the property, market conditions, and strategy, but typical projections include:\n✓ 8-9% annual cash-on-cash returns\n✓ 10-20% internal rate of return (IRR) over 5-7 years\n✓ 2x+ equity multiple (doubling investor capital over the hold period)",
+          "Returns vary based on the property, market conditions, and strategy, but typical projections include:\n8-9% annual cash-on-cash returns\n10-20% internal rate of return (IRR) over 5-7 years\n2x+ equity multiple (doubling investor capital over the hold period)",
       },
       {
         question: "How are investor returns calculated?",
         answer:
-          "We use multiple performance metrics, including:\n✓ Cash-on-Cash Return (CoC): Annual cash flow divided by the investor's initial investment\n✓ Internal Rate of Return (IRR): A time-weighted return that factors in future cash flow and sales profits\n✓ Equity Multiple: Total return on investment (e.g., 2x equity multiple means an investor doubles their money)",
+          "We use multiple performance metrics, including:\nCash-on-Cash Return (CoC): Annual cash flow divided by the investor's initial investment\nInternal Rate of Return (IRR): A time-weighted return that factors in future cash flow and sales profits\nEquity Multiple: Total return on investment (e.g., 2x equity multiple means an investor doubles their money)",
       },
       {
         question: "How and when will I receive distributions?",
@@ -63,7 +63,7 @@ const faqs = [
       {
         question: "What happens at the end of the investment term?",
         answer:
-          "At the end of the hold period, we either:\n✓ Sell the property and distribute profits\n✓ Refinance the property to return investor capital while keeping the asset\n✓ Reposition the asset for continued cash flow with investor approval",
+          "At the end of the hold period, we either:\nSell the property and distribute profits\nRefinance the property to return investor capital while keeping the asset\nReposition the asset for continued cash flow with investor approval",
       },
     ],
   },
@@ -73,12 +73,12 @@ const faqs = [
       {
         question: "What are the most significant risks in multifamily syndications?",
         answer:
-          "Like any investment, multifamily real estate carries risks, including:\n✓ Market downturns affecting property values\n✓ Tenant vacancies reducing cash flow\n✓ Interest rate fluctuations impacting financing\n✓ Operational challenges if management is ineffective",
+          "Like any investment, multifamily real estate carries risks, including:\nMarket downturns affecting property values\nTenant vacancies reducing cash flow\nInterest rate fluctuations impacting financing\nOperational challenges if management is ineffective",
       },
       {
         question: "How do you mitigate risk for investors?",
         answer:
-          "✓ Conservative underwriting with realistic projections\n✓ Thorough due diligence on property financials, market trends, and operations\n✓ Experienced property management to maintain tenant satisfaction and minimize vacancies\n✓ Reserves set aside for unexpected expenses",
+          "Conservative underwriting with realistic projections\nThorough due diligence on property financials, market trends, and operations\nExperienced property management to maintain tenant satisfaction and minimize vacancies\nReserves set aside for unexpected expenses",
       },
       {
         question: "What happens if the market declines during our investment period?",
@@ -118,7 +118,7 @@ const faqs = [
       {
         question: "What is the difference between preferred returns and profit splits?",
         answer:
-          "✓ Preferred Return: Investors get paid a set return (e.g., 8%) before sponsors receive profits.\n✓ Profit Split: After preferred returns, profits are split based on the syndication structure (e.g., 70/30).",
+          "Preferred Return: Investors get paid a set return (e.g., 8%) before sponsors receive profits.\nProfit Split: After preferred returns, profits are split based on the syndication structure (e.g., 70/30).",
       },
       {
         question: "How do taxes work on my investment?",
@@ -138,17 +138,17 @@ const faqs = [
       {
         question: "How do you find and select investment properties?",
         answer:
-          "✓ Off-market deals through broker relationships\n✓ Direct outreach to sellers\n✓ CRE platforms like Crexi & LoopNet\n✓ Partnering with local market experts",
+          "Off-market deals through broker relationships\nDirect outreach to sellers\nCRE platforms like Crexi & LoopNet\nPartnering with local market experts",
       },
       {
         question: "What markets do you focus on?",
         answer:
-          "We invest in cash-flowing, landlord-friendly markets where we can create long-term equity growth. Current holdings include:\n✓ Clarion, PA (High Cap-Rate Market)\n✓ Catonsville, MD (Value-Add & Stability)\n✓ Ocean City, MD (Seasonal & Luxury Rental Strategy)",
+          "We invest in cash-flowing, landlord-friendly markets where we can create long-term equity growth. Current holdings include:\nClarion, PA (High Cap-Rate Market)\nCatonsville, MD (Value-Add & Stability)\nOcean City, MD (Seasonal & Luxury Rental Strategy)",
       },
       {
         question: "What is your value-add strategy?",
         answer:
-          "✓ Renovating units to increase rental value\n✓ Improving tenant quality & reducing turnover\n✓ Optimizing operations to reduce expenses & increase NOI\n✓ Repositioning properties for a higher price on exit",
+          "Renovating units to increase rental value\nImproving tenant quality & reducing turnover\nOptimizing operations to reduce expenses & increase NOI\nRepositioning properties for a higher price on exit",
       },
       {
         question: "Can you share examples of past deals and their performance?",
