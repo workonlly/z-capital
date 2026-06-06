@@ -133,7 +133,7 @@ export default function Features() {
           <p className="text-[#d4af37]">Industry-Leading Expertise &amp; Transparent Approach</p>
         </div>
 
-        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-3 gap-8 !mt-4">
           {features.map((feature, idx) => (
             <div
               key={idx}
