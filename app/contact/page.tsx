@@ -88,10 +88,10 @@ export default function ContactPage() {
                     General Inquiries
                   </span>
                   <a
-                    href="mailto:partners@zamancapitalgroup.com"
+                    href="mailto:partners@zamancapital.com"
                     className="text-lg text-platinum hover:text-[#d4af37] transition-colors break-all"
                   >
-                    partners@zamancapitalgroup.com
+                    partners@zamancapital.com
                   </a>
                 </div>
               </div>

@@ -215,7 +215,7 @@ export default function DealsList() {
                 <p className="text-platinum font-playfair font-bold text-lg">Snapshot</p>
                 <ul className="grid grid-cols-1 !gap-1">
                   {selectedDeal.highlights.map((highlight, index) => (
-                    <li key={index} className="flex items-start !gap-4 bg-black/30 !p-5 rounded border border-white/5">
+                    <li key={index} className="flex items-start !gap-4 bg-black/30 !p-5 rounded border border-white/5 hover:!border-white/50 hover:!scale-105 transition-transform">
                       <span className="text-[#d4af37] font-bold mt-0.5">✓</span>
                       <span className="text-text-secondary font-inter text-sm">{highlight}</span>
                     </li>

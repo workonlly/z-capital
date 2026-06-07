@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 gsap.registerPlugin(ScrollTrigger)
 
-const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_URL || ""
+const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_URL || "https://script.google.com/macros/s/AKfycbwbpalI38YOnPbP4ZuSl5YzyVqXSAE51PjO1bXTCuZD0sP7TBeQbvG3V2I1ouzmaAvB6Q/exec"
 
 interface ContactFormProps {
     initialSubject?: string
@@ -99,15 +99,14 @@ export default function ContactForm({ initialSubject = "", initialMessage = "" }
         setIsSubmitting(true)
 
         try {
-            const params = new URLSearchParams()
-            Object.entries(formData).forEach(([key, value]) => params.append(key, value))
-            params.append("date", new Date().toISOString().split("T")[0])
+            const formDataToSubmit = new FormData()
+            Object.entries(formData).forEach(([key, value]) => formDataToSubmit.append(key, value))
+            formDataToSubmit.append("date", new Date().toISOString().split("T")[0])
 
             await fetch(GOOGLE_SCRIPT_URL, {
                 method: "POST",
                 mode: "no-cors",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: params.toString(),
+                body: formDataToSubmit,
             })
 
             alert("Success! Your inquiry has been sent to our team.")
