@@ -100,7 +100,7 @@ export default function InvestTypes() {
 
                 <ul className="space-y-5">
                   {type.features.map((feature, i) => (
-                    <li key={i} className="text-text-secondary flex items-start gap-4">
+                    <li key={i} className="text-text-secondary !m-1 !flex !items-center !gap-4">
                       <span className="text-[#d4af37] font-bold text-lg leading-none mt-1 shrink-0">✓</span>
                       <span className="leading-relaxed text-base">{feature}</span>
                     </li>
