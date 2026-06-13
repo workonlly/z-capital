@@ -42,6 +42,18 @@ const team: TeamMember[] = [
     expertise: ["Acquisitions", "Deal Sourcing", "Investor Strategy", "Portfolio Growth"],
     linkedin: "https://www.linkedin.com/in/nashrazaman/",
   },
+  {
+    name: "Areeb Uzzaman",
+    role: "Operations, Logistics & Project Management",
+    image: "/deals/main.png",
+    longBio: [
+      "Areeb serves as the operational strategist driving Zaman Capital Group’s scalable backend systems, seamless technology integrations, and efficient workflows. His meticulous logistical planning and systems oversight streamline internal operations, maximize asset performance, and enhance investor returns.",
+      "With expertise in workflow architecture, project leadership, and process design, he holds an MPA from Brown University and PMP®, LSSBB, and PSM I credentials. This rigorous background provides a highly structured, data-driven framework for managing the logistics of the firm’s expanding portfolio.",
+      "Bridging operational management and technical scalability, he leads as Product Manager, overseeing the development of custom asset management systems. His strategic guidance ensures the firm’s backend infrastructure is as robust and dependable as its real estate assets.",
+    ],
+    expertise: ["Logistics & Planning","Operations Management","Product Management","Process Optimization","Technology Integration"],
+    linkedin: "https://www.linkedin.com/in/areebuzzaman/?skipRedirect=true",
+  },
 ]
 
 function TeamMemberCard({ member, index }: { member: TeamMember; index: number }) {
@@ -109,7 +121,7 @@ function TeamMemberCard({ member, index }: { member: TeamMember; index: number }
   return (
     <div
       ref={cardRef}
-      className="card p-8 bg-black/40 border border-[#d4af37]/20 rounded-xl hover:border-[#d4af37]/50 transition-colors duration-300"
+      className="card p-8 !m-2 bg-black/40 border border-[#d4af37]/20 rounded-xl hover:border-[#d4af37]/50 transition-colors duration-300"
       style={{ opacity: 0 }}
     >
       <div className="grid grid-cols-1 md:grid-cols-12 gap-10 items-start">
