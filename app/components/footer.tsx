@@ -52,10 +52,10 @@ export default function Footer() {
   <ul className="flex flex-col gap-4 text-sm !mt-2">
     <li>
       <a
-        href="mailto:partners@zamancapitalgroup.com"
+        href="mailto:partners@zamancapital.com"
         className="text-text-secondary hover:text-[#d4af37] font-inter transition block"
       >
-        partners@zamancapitalgroup.com
+        partners@zamancapital.com
       </a>
     </li>
  
