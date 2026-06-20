@@ -72,7 +72,7 @@ const deals: Deal[] = [
     id: 4,
     title: "New Iberia, LA",
     location: "Southern Value-Add",
-    image: "/deals/New lberia.png",
+    image: "/deals/libera.jpeg",
     description:
       "A significant value-add acquisition targeting a 22-unit complex. The focus is on immediate cash flow enhancement through professional management implementation and strategic property improvements.",
     story: "Acquired: 2026 | 22-Unit Complex",
@@ -229,7 +229,7 @@ export default function DealsList() {
                 href={`/contact?source=deals&deal=${selectedDeal.title}`}
                 className="btn-gold w-full md:w-auto font-inter font-semibold inline-block text-center shadow-[0_0_20px_rgba(212,175,55,0.2)] hover:shadow-[0_0_30px_rgba(212,175,55,0.4)] transition-shadow"
               >
-                Request Full Case Study
+               Learn More
               </Link>
             </div>
           </div>

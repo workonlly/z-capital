@@ -9,7 +9,7 @@ export default function Page(){
     <>
     <InvestHero />
     <InvestRequirements />
-    <InvestTypes />
+    {/* <InvestTypes /> */}
     <Cta />
     </>
   )
