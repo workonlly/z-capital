@@ -53,7 +53,6 @@ const team: TeamMember[] = [
       "Areeb serves as the technical project manager, driving Zaman Capital Group’s scalable backend systems, seamless technology integrations, and efficient workflows. His meticulous technical planning and systems oversight streamline internal operations and enable tracking of asset performance.",
       "With expertise in workflow architecture, project leadership, and process design, he holds an MPA from Brown University and PMP®, LSSBB, and PSM I credentials. This rigorous background provides a highly structured, data-driven framework for managing the logistics of the firm’s expanding portfolio.",
       "Bridging operational management and technical scalability, he oversees the development of custom asset management systems. His strategic guidance ensures the firm’s backend infrastructure is as robust and dependable as its real estate assets.",
-      "Use of “Logistics” suggests we’re in supply chain management, and that’s why I recommend removing mentions of that word or similar words."
     ],
     expertise: ["Logistics & Planning","Operations Management","Product Management","Process Optimization","Technology Integration"],
     linkedin: "https://www.linkedin.com/in/areebuzzaman/?skipRedirect=true",
