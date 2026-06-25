@@ -38,9 +38,9 @@ const deals: Deal[] = [
       "This asset acts as a real-life example of our main strategy: purchasing underperforming properties and executing a targeted plan to boost cash flow and create substantial equity.",
     story: "Acquired: Q2 2025 | 8-Unit Building",
     plan: "We identified a clear opportunity to capitalize on operational inefficiencies through a hands-on management approach, upgrading units, and professionalizing management.",
-    results: "Projected 35% Return on Cost with double-digit annual cash-on-cash returns upon stabilization.",
+    results: "",
     details: { value: "Undisclosed", units: "8", year: "2025", type: "Apartment Building", irr: "20% (Proj.)", hold: "5 Years" },
-    highlights: ["Projected Gross Revenue Growth: +20%", "Occupancy Growth: From 85% to 95%+", "Strategy: Operational Turnaround"],
+    highlights: ["Capital Improvements: Refurbish Exterior Structural Improvements", "Annual Occupancy Target of 90%", " Repositioning Strategy: Introduce Professional Tenant Base as Subsidized Tenants Turn Over "],
   },
   {
     id: 2,
@@ -52,8 +52,8 @@ const deals: Deal[] = [
     story: "Acquired: 2021 | Converted from 8 rooms",
     plan: "Maximize revenue potential by optimizing features of a high demand stabilized duplex, through targeted improvement plan, advanced management and tenant screening.",
     results: "35%+ in Equity since purchase",
-    details: { value: "High Growth", units: "2", year: "2021", type: "Duplex Conversion", irr: "High Dbl-Digit", hold: "Hold" },
-    highlights: ["Asset Type: Premium Duplex", "Increase in Asset Value: +34%", "Return on Cost: +25%", "Strategy: Heavy Value-Add"],
+    details: { value: "High Growth", units: "2", year: "2021", type: "Duplex Conversion", irr: "", hold: "Hold" },
+    highlights: ["Asset Type: Premium Duplex", "Consistent Residential Demand", "Executed Interior Capital Improvement Plan", "Successfully Repositioned to Professional Tenant Base"],
   },
   {
     id: 3,
@@ -64,9 +64,9 @@ const deals: Deal[] = [
       "An opportunistic investment in a unique, high-demand market, capitalizing on both substantial market growth and robust rental income.",
     story: "Acquired: 2021 | Resort Condominium",
     plan: "Capture overall market value in consistent income with mixed use at STR and LTR rental agreements while actively managing the unit to maximize the rental income annually.",
-    results: "35% cash on cash return.",
-    details: { value: "High Demand", units: "1", year: "2021", type: "Resort Condo", irr: "N/A", hold: "Hold" },
-    highlights: ["Increase in Asset Value: +40%", "Market Focus: Supply-Constrained Area", "Income: Consistent Demand", "Outcome: Outperformed Forecasts"],
+    results: "",
+    details: { value: "High Demand", units: "1", year: "2021", type: "Resort Condo", irr: "", hold: "Hold" },
+    highlights: ["Active Curated Listings Drive Year-Long Demand", "Market Focus: Supply-Constrained Area", "Effective Budget Controls Maintain Low Expense Ratio", "Thorough Tenant Screening Secured Long-Term Lease Commitments"],
   },
   {
     id: 4,
@@ -78,8 +78,8 @@ const deals: Deal[] = [
     story: "Acquired: 2026 | 22-Unit Complex",
     plan: "Implement professional third-party management to streamline operations, address deferred maintenance, and execute cosmetic upgrades to increase market rents.",
     results: "Targeting 40% Cash-on-Cash return.",
-    details: { value: "Value-Add", units: "22", year: "2026", type: "Multi-Family", irr: "20%+ (Proj.)", hold: "5-7 Years" },
-    highlights: ["Cash on Cash: 40% Projected", "Strategy: Management Turnaround", "Upside: Rent Optimization", "Scale: 22 Units"],
+    details: { value: "Value-Add", units: "22", year: "2026", type: "Multi-Family", irr: "", hold: "5-7 Years" },
+    highlights: ["Implement Market-Standard Professional Management", "Mark Rents to Market as Legacy Tenants Turn Over", "Make Targeted Capital Improvements (e.g., Fixtures, Appliances)", "Aggressively Market Employers Seeking Workforce Housing"],
   },
 ]
 
@@ -185,12 +185,17 @@ export default function DealsList() {
                   <p className="text-text-secondary font-inter text-xs mb-1 uppercase tracking-widest">Year Acquired</p>
                   <p className="text-xl font-bold text-platinum font-playfair">{selectedDeal.details.year}</p>
                 </div>
-                <div>
+                {selectedDeal.details.irr && (
+                  <>
+                   <div>
                   <p className="text-text-secondary font-inter text-xs mb-1 uppercase tracking-widest">Performance</p>
                   <p className="text-xl font-bold text-platinum font-playfair">
-                    {selectedDeal.details.irr || selectedDeal.details.value}
+                    {selectedDeal.details.irr }
                   </p>
                 </div>
+                  </>
+                )
+                }
               </div>
 
               {/* Plan & Results */}
@@ -203,10 +208,15 @@ export default function DealsList() {
                   <p className="text-text-secondary text-sm leading-relaxed">{selectedDeal.plan}</p>
                 </div>
                 <div>
-                  <h4 className="font-playfair font-bold text-[#d4af37] text-lg !mb-4 flex items-center !gap-3">
+                  {selectedDeal.results &&(
+                    <>
+                     <h4 className="font-playfair font-bold text-[#d4af37] text-lg !mb-4 flex items-center !gap-3">
                     <span className="w-8 h-[1px] bg-[#d4af37]"></span> The Results
                   </h4>
                   <p className="text-platinum text-sm leading-relaxed font-medium">{selectedDeal.results}</p>
+                    </>
+                  )}
+                 
                 </div>
               </div>
 

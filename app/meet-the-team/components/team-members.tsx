@@ -24,8 +24,8 @@ const team: TeamMember[] = [
     role: "Legal & Financial Due Diligence",
     image: "/deals/team1.avif",
     longBio: [
-      "Joe is a Corporate and M&A attorney who ensures that every acquisition at Zaman Capital Group is legally sound, financially optimized, and risk-mitigated. His sharp legal expertise and strategic deal structuring give investors bulletproof transactions.",
-      "With a background in high-stakes corporate law, Joe specializes in contracts, due diligence, and financial structuring ensuring that every deal is built for long-term success. Selected as a 2025 Rising Star by Maryland Super Lawyers Magazine, Joe's meticulous attention to legal and financial details allows Zaman Capital Group to navigate complex transactions with confidence.",
+      "Joe ensures that every acquisition at Zaman Capital Group is legally sound, financially optimized, and risk-mitigated. His sharp legal expertise and strategic deal structuring provide Zaman Capital Group’s deals a sound legal foundation for its investments.",
+      "With a background in high-stakes corporate law, Joe specializes in contracts, due diligence, and financial structuring, ensuring that every deal is built for long-term success. Selected as a 2025 and 2026 Rising Star by Maryland Super Lawyers Magazine, Joe's meticulous attention to legal and financial details allows Zaman Capital Group to navigate complex transactions with confidence.",
       "Joe thrives at the intersection of legal risk management and wealth-building strategy, protecting investor interests while positioning deals for maximum profitability.",
     ],
     expertise: ["Legal", "Due Diligence", "Financials", "Risk Mitigation", "Investor Protections"],
@@ -37,9 +37,9 @@ const team: TeamMember[] = [
     role: "Acquisitions, Growth and Strategy",
     image: "/deals/team2.jpg",
     longBio: [
-      "Nashra is a visionary real estate investor who has successfully scaled a diversified portfolio across multifamily, single-family, and short-term rentals since 2020. She leads deal sourcing, acquisitions, and strategic growth for Zaman Capital Group, ensuring strong returns and long-term value creation for investors.",
+      "Nashra is a visionary real estate investor who has successfully scaled a diversified portfolio across multifamily, single-family, and short-term rentals since 2020. She leads deal sourcing, acquisitions, and strategic growth for Zaman Capital Group, prioritizing strong returns and long-term value creation for investors.",
       "With a background in project management at industry giants, Nashra brings a data-driven, analytical approach to real estate investing. Her ability to identify undervalued assets, optimize operations, and execute high-yield strategies makes her a trusted partner for investors seeking sustainable growth.",
-      "Known for her sharp negotiation skills and relentless execution, Nashra thrives in high-stakes dealmaking. She transforms properties into high-performing assets while maintaining a proactive investor-first approach.",
+      "Nashra thrives in high-stakes dealmaking. She transforms properties into high-performing assets while maintaining a proactive investor-first approach.",
     ],
     expertise: ["Acquisitions", "Deal Sourcing", "Investor Strategy", "Portfolio Growth"],
     linkedin: "https://www.linkedin.com/in/nashrazaman/",
@@ -50,9 +50,10 @@ const team: TeamMember[] = [
     role: "Operations, Logistics & Project Management",
     image: "/deals/main.png",
     longBio: [
-      "Areeb serves as the operational strategist driving Zaman Capital Group’s scalable backend systems, seamless technology integrations, and efficient workflows. His meticulous logistical planning and systems oversight streamline internal operations, maximize asset performance, and enhance investor returns.",
+      "Areeb serves as the technical project manager, driving Zaman Capital Group’s scalable backend systems, seamless technology integrations, and efficient workflows. His meticulous technical planning and systems oversight streamline internal operations and enable tracking of asset performance.",
       "With expertise in workflow architecture, project leadership, and process design, he holds an MPA from Brown University and PMP®, LSSBB, and PSM I credentials. This rigorous background provides a highly structured, data-driven framework for managing the logistics of the firm’s expanding portfolio.",
-      "Bridging operational management and technical scalability, he leads as Product Manager, overseeing the development of custom asset management systems. His strategic guidance ensures the firm’s backend infrastructure is as robust and dependable as its real estate assets.",
+      "Bridging operational management and technical scalability, he oversees the development of custom asset management systems. His strategic guidance ensures the firm’s backend infrastructure is as robust and dependable as its real estate assets.",
+      "Use of “Logistics” suggests we’re in supply chain management, and that’s why I recommend removing mentions of that word or similar words."
     ],
     expertise: ["Logistics & Planning","Operations Management","Product Management","Process Optimization","Technology Integration"],
     linkedin: "https://www.linkedin.com/in/areebuzzaman/?skipRedirect=true",
